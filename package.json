@@ -15,7 +15,7 @@
     "start:api-proxy-service": "cd api-proxy-service && npm run dev",
     "start:client": "cd client && npm run dev",
     "build": "npm run build:shared && cd client && npm run build",
-     "start": "concurrently -n 'AUTH,API,CLIENT' -c 'bgBlue.bold,bgGreen.bold,bgMagenta.bold' \"npm run start:auth-service\" \"npm run start:api-proxy-service\" \"npm run start:client\""
+    "start": "concurrently -n 'AUTH,API,CLIENT' -c 'bgBlue.bold,bgGreen.bold,bgMagenta.bold' \"npm run start:auth-service\" \"npm run start:api-proxy-service\" \"npm run start:client\""
   },
   "keywords": [],
   "author": "",
