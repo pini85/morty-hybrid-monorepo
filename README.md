@@ -13,6 +13,7 @@ This project is a hybrid monolith application featuring microservices for authen
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
+- [Login Credentials](#login-credentials)
 
 ## Prerequisites
 
