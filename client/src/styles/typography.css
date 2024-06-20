@@ -1,0 +1,56 @@
+:root {
+  --font-size-small: 1.4rem;
+  --font-size-medium: 1.6rem;
+  --font-size-medium-large: 1.8rem;
+  --font-size-large: 2.4rem;
+  --font-size-extra-large: 4.4rem;
+  --font-size-huge: 7rem;
+  --primary-font: "Asap Condensed", sans-serif;
+  --secondary-font: "League Gothic", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--secondary-font);
+  margin: 0;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: var(--font-size-huge);
+}
+
+h2 {
+  font-size: var(--font-size-extra-large);
+}
+
+h3 {
+  font-size: var(--font-size-large);
+}
+
+h4 {
+  font-size: var(--font-size-medium-large);
+}
+
+h5 {
+  font-size: var(--font-size-medium);
+}
+
+h6 {
+  font-size: var(--font-size-small);
+}
+
+p {
+  margin: 0;
+  font-size: var(--font-size-medium);
+  display: inline;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}

@@ -9,18 +9,23 @@
     "api-proxy-service",
     "shared"
   ],
-  "scripts": {
-    "build:shared": "cd shared && npm run build",
-    "start:auth-service": "cd auth-service && npm run dev",
-    "start:api-proxy-service": "cd api-proxy-service && npm run dev",
-    "start:client": "cd client && npm run dev",
-    "build": "npm run build:shared && cd client && npm run build",
-    "start": "concurrently -n 'AUTH,API,CLIENT' -c 'bgBlue.bold,bgGreen.bold,bgMagenta.bold' \"npm run start:auth-service\" \"npm run start:api-proxy-service\" \"npm run start:client\""
-  },
+"scripts": {
+  "build:shared": "cd shared && tsc --build",
+  "build:auth-service": "cd auth-service && tsc --build",
+  "build:api-proxy-service": "cd api-proxy-service && tsc --build",
+  "build:client": "cd client && tsc --build",
+  "build": "npm run build:shared && npm run build:auth-service && npm run build:api-proxy-service && npm run build:client",
+  "start:auth-service": "cd auth-service && npm run dev",
+  "start:api-proxy-service": "cd api-proxy-service && npm run dev",
+  "start:client": "cd client && npm run dev",
+  "start": "concurrently -n 'AUTH,API,CLIENT' -c 'bgBlue.bold,bgGreen.bold,bgMagenta.bold' \"npm run start:auth-service\" \"npm run start:api-proxy-service\" \"npm run start:client\"",
+  "docs": "npm run build:shared && npm run build && typedoc"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "typedoc": "^0.25.13"
   }
 }

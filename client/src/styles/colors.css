@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #524763;
+  --primary-color-light: #625577;
+  --secondary-color: #82d8d8;
+  --secondary-color-light: #cdffef;
+  --text-dark: #333333;
+  --text-white: #ffffff;
+  /* Toastify overriding color variables */
+  --toastify-color-light: #82d8d8;
+  --toastify-color-dark: #121212;
+  --toastify-color-info: #3498db;
+  --toastify-color-success: #07bc0c;
+  --toastify-color-warning: #f1c40f;
+  --toastify-color-error: #e74c3c;
+}

@@ -1,0 +1,15 @@
+{
+  "entryPointStrategy": "expand",
+  "entryPoints": [
+    "./shared/src",
+    "./client/src",
+    "./api-proxy-service/src",
+    "./auth-service/src"
+  ],
+  "out": "docs",
+  "exclude": ["**/*.test.ts", "**/*.spec.ts"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "includeVersion": true,
+  "readme": "README.md"
+}
