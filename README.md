@@ -141,5 +141,14 @@ morty-hybrid-monorepo/
    ```sh
    npm run docs
    ```
+## Login Credentials
+
+**Admin Credentials:**
+- Username: admin
+- Password: admin123
+
+**User Credentials:**
+- Username: user
+- Password: user123
 
 For further details, please refer to the source code and comments.
