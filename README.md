@@ -26,7 +26,7 @@ Ensure you have the following software installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/morty-hybrid-monorepo.git
+   git clone https://github.com/pini-85/morty-hybrid-monorepo.git
    cd morty-hybrid-monorepo
    ```
 
